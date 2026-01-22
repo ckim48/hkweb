@@ -75,8 +75,11 @@
             object-fit: cover;
             filter: grayscale(20%);
             transition: filter 0.3s ease;
+            border-radius: 0px !important;
         }
-
+        .card{
+            border-radius: 0px !important;
+        }
         .portfolio-card:hover .card-img-top {
             filter: grayscale(0%);
         }
@@ -127,7 +130,7 @@
     <div class="tab-content">
         <div class="tab-pane fade show active" id="all">
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="portfolio-card card">
                         <div class="card-img-container">
                             <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Project">
@@ -139,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="portfolio-card card">
                         <div class="card-img-container">
                             <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Project">
@@ -156,13 +159,23 @@
 
         <div class="tab-pane fade" id="design">
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="portfolio-card card">
                         <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Project">
                         <div class="card-body">
                             <span class="category-badge">Branding</span>
                             <h5 class="mt-2 text-white">Visual Identity</h5>
                             <p class="small text-muted">Complete brand guidelines for a tech firm.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="portfolio-card card">
+                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Project">
+                        <div class="card-body">
+                            <span class="category-badge">Branding2</span>
+                            <h5 class="mt-2 text-white">Visual Identity2</h5>
+                            <p class="small text-muted">Complete brand guidelines for a tech firm.2</p>
                         </div>
                     </div>
                 </div>
